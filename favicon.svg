@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="597 Capital">
+  <rect width="64" height="64" rx="14" fill="#07090c"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#3b82f6" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M10 46 L22 38 L30 41 L42 28 L54 20" fill="none" stroke="#3b82f6" stroke-opacity=".35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="39" text-anchor="middle" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="21" font-weight="700" fill="#e6edf5" letter-spacing="-0.5">597</text>
+  <rect x="18" y="45" width="28" height="3" rx="1.5" fill="#3b82f6"/>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://597capital.com/sitemap.xml
