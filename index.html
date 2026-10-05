@@ -4,35 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>597 Capital</title>
-  <meta name="description" content="597 Capital">
+  <meta name="description" content="597 Capital is a private, proprietary trading firm based in New York.">
   <meta name="theme-color" content="#07090c">
   <meta name="color-scheme" content="dark">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta property="og:title" content="597 Capital">
+  <meta property="og:description" content="Private, proprietary trading. New York.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://597capital.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
-    html,body{height:100%}
-    body{background:#07090c;color:#e6e9ef;font-family:Inter,system-ui,-apple-system,sans-serif;display:flex;flex-direction:column;min-height:100vh;-webkit-font-smoothing:antialiased}
-    main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 24px;gap:28px}
-    h1{font-size:clamp(2.6rem,9vw,5rem);font-weight:600;letter-spacing:-.03em;line-height:1}
-    h1 .n{font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:500;background:linear-gradient(135deg,#7fb2ff,#3b82f6);-webkit-background-clip:text;background-clip:text;color:transparent}
-    .rule{width:40px;height:2px;background:#3b82f6;opacity:.8}
-    a.mail{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:clamp(.95rem,3.6vw,1.05rem);color:#9aa4b2;text-decoration:none;border-bottom:1px solid #2a313c;padding-bottom:3px;transition:color .2s,border-color .2s}
-    a.mail:hover,a.mail:focus-visible{color:#e6e9ef;border-color:#3b82f6;outline:none}
-    footer{text-align:center;padding:24px;font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.72rem;color:#4b5462}
+    body{background:#07090c;color:#e6e9ef;font-family:Inter,system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased;
+      background-image:radial-gradient(ellipse 60% 45% at 75% 10%,rgba(59,130,246,.14),transparent 70%),linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+      background-size:auto,48px 48px,48px 48px}
+    .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+    .wrap{width:100%;max-width:880px;margin:0 auto;padding:0 28px}
+    header{padding:28px 0}
+    header .wrap{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:10px;color:#e6e9ef;text-decoration:none;font-weight:600}
+    .brand .n{color:#7fb2ff}
+    header a.top-contact{font-size:.85rem;color:#9aa4b2;text-decoration:none}
+    header a.top-contact:hover{color:#e6e9ef}
+    main{flex:1;display:flex;align-items:center}
+    .hero{padding:72px 0 56px}
+    .eyebrow{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:#7c8696;margin-bottom:22px}
+    h1{font-size:clamp(2.8rem,9vw,5.2rem);font-weight:600;letter-spacing:-.035em;line-height:1}
+    h1 .n{font-family:"JetBrains Mono",ui-monospace,monospace;font-weight:500;background:linear-gradient(135deg,#9cc3ff,#3b82f6);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lede{margin-top:26px;max-width:560px;font-size:clamp(1.05rem,2.6vw,1.2rem);line-height:1.6;color:#aab3c0}
+    .grid{margin-top:56px;display:grid;grid-template-columns:1fr;border-top:1px solid #1b2129}
+    .grid>div{padding:22px 0;border-bottom:1px solid #1b2129}
+    .k{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#5f6977;margin-bottom:8px}
+    .v{color:#d5dae2;line-height:1.55}
+    .v a{color:#e6e9ef;text-decoration:none;border-bottom:1px solid #3b82f6;padding-bottom:1px}
+    .v a:hover{color:#9cc3ff}
+    @media(min-width:720px){.grid{grid-template-columns:repeat(3,1fr)}.grid>div{padding:24px 24px 24px 0}.grid>div+div{padding-left:24px;border-left:1px solid #1b2129}}
+    footer{padding:28px 0 32px;font-size:.75rem;color:#4f5866;line-height:1.6}
+    footer p+p{margin-top:6px}
   </style>
 </head>
 <body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/favicon.svg" alt="" width="26" height="26"><span><span class="n mono">597</span> Capital</span></a>
+      <a class="top-contact mono" href="mailto:rohan@597capital.com">Contact</a>
+    </div>
+  </header>
   <main>
-    <h1><span class="n">597</span> Capital</h1>
-    <div class="rule" aria-hidden="true"></div>
-    <a class="mail" href="mailto:rohan@597capital.com">rohan@597capital.com</a>
+    <div class="wrap hero">
+      <p class="eyebrow mono">Private &middot; Proprietary &middot; New York</p>
+      <h1><span class="n">597</span> Capital</h1>
+      <p class="lede">597 Capital is a privately held trading firm. We take a quantitative, technology-driven approach to the markets and invest solely our own capital.</p>
+      <div class="grid">
+        <div><p class="k mono">The firm</p><p class="v">Independent and founder-owned, with a focus on research and in-house technology.</p></div>
+        <div><p class="k mono">Capital</p><p class="v">Proprietary only. We do not accept outside investors or manage money for others.</p></div>
+        <div><p class="k mono">Contact</p><p class="v"><a class="mono" href="mailto:rohan@597capital.com">rohan@597capital.com</a><br>New York, NY</p></div>
+      </div>
+    </div>
   </main>
-  <footer>© 2026 597 Capital</footer>
+  <footer>
+    <div class="wrap">
+      <p class="mono">&copy; 2026 597 Capital</p>
+      <p>Nothing on this site is an offer, solicitation, or investment advice.</p>
+    </div>
+  </footer>
 </body>
 </html>
